@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio de Projetos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> <!-- Link para o CSS personalizado -->
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Meu Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#projeto1">Projeto 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projeto2">Projeto 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projeto3">Projeto 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Projeto 1: Avatar Masculino -->
+    <section id="projeto1" class="container mt-5">
+        <h2>Projeto 1: Avatar Masculino</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/avatar-masculino.jpg" class="img-fluid" alt="Avatar Masculino">
+            </div>
+            <div class="col-md-8">
+                <h4>Descrição</h4>
+                <p>Criação de um avatar masculino utilizando ferramentas gráficas e programação.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projeto 2: Meus Livros -->
+    <section id="projeto2" class="container mt-5">
+        <h2>Projeto 2: Meus Livros</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Quarto de Despejo</h4>
+                <img src="images/quarto-do-despejo.jpg" class="img-fluid" alt="Quarto de Despejo">
+                <p><strong>Autor:</strong> Carolina Maria de Jesus</p>
+                <p><strong>Resumo:</strong> Quarto de Despejo é um diário escrito por Carolina Maria de Jesus, uma mulher que vivia na favela do Canindé, em São Paulo. O livro narra a dura realidade da autora e sua luta para sobreviver com seus filhos.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>1984</h4>
+                <img src="images/1984.jpg" class="img-fluid" alt="1984">
+                <p><strong>Autor:</strong> George Orwell</p>
+                <p><strong>Resumo:</strong> 1984 é uma obra distópica que descreve um regime totalitário onde a liberdade individual é suprimida e a vigilância do governo é constante.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>A Revolução dos Bichos</h4>
+                <img src="images/a-revolucao-dos-bichos.jpg" class="img-fluid" alt="A Revolução dos Bichos">
+                <p><strong>Autor:</strong> George Orwell</p>
+                <p><strong>Resumo:</strong> A Revolução dos Bichos é uma alegoria política que critica os regimes totalitários, com uma narrativa que acompanha um grupo de animais que se rebelam contra seus opressores humanos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projeto 3: Globo Terrestre e Constelação -->
+    <section id="projeto3" class="container mt-5">
+        <h2>Projeto 3: Globo Terrestre e Constelação</h2>
+        <div class="row">
+            <div class="col-12">
+                <h4>Visualização de um Globo Terrestre com Constelação</h4>
+                <div id="globo-terrestre">
+                    <!-- Aqui você pode inserir um código interativo em JavaScript que mostre o globo terrestre com a constelação -->
+                    <p>Em breve, será possível interagir com o globo terrestre e visualizar constelações no céu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Meu Portfolio</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
